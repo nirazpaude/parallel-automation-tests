@@ -1,0 +1,206 @@
+[
+  {
+    "description": "C72065622:Duckduckgo",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I can browse \"DUCKDUCKGO\" website",
+        "category": "I can go to duckduckgo website: C72065622:Duckduckgo",
+        "durationMillis": 3,
+        "sourceLocation": {
+          "filePath": "e2e/features/duckduckgo.feature",
+          "line": 7,
+          "column": 9
+        },
+        "progress": {
+          "step": 1,
+          "steps": 1
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I can browse \"DUCKDUCKGO\" website",
+          "category": "I can go to duckduckgo website: C72065622:Duckduckgo",
+          "durationMillis": 3,
+          "sourceLocation": {
+            "filePath": "e2e/features/duckduckgo.feature",
+            "line": 7,
+            "column": 9
+          },
+          "progress": {
+            "step": 1,
+            "steps": 1
+          }
+        }
+      ]
+    ],
+    "duration": 6
+  },
+  {
+    "description": "C72065623:BING",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I can browse \"BING\" website",
+        "category": "I can go to bing website: C72065623:BING",
+        "durationMillis": 3,
+        "sourceLocation": {
+          "filePath": "e2e/features/bing.feature",
+          "line": 7,
+          "column": 9
+        },
+        "progress": {
+          "step": 1,
+          "steps": 1
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I can browse \"BING\" website",
+          "category": "I can go to bing website: C72065623:BING",
+          "durationMillis": 3,
+          "sourceLocation": {
+            "filePath": "e2e/features/bing.feature",
+            "line": 7,
+            "column": 9
+          },
+          "progress": {
+            "step": 1,
+            "steps": 1
+          }
+        }
+      ]
+    ],
+    "duration": 8
+  },
+  {
+    "description": "C72065621:GOOGLE",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I can browse \"GOOGLE\" website",
+        "category": "I can go to google website: C72065621:GOOGLE",
+        "durationMillis": 2,
+        "sourceLocation": {
+          "filePath": "e2e/features/google.feature",
+          "line": 7,
+          "column": 9
+        },
+        "progress": {
+          "step": 1,
+          "steps": 1
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I can browse \"GOOGLE\" website",
+          "category": "I can go to google website: C72065621:GOOGLE",
+          "durationMillis": 2,
+          "sourceLocation": {
+            "filePath": "e2e/features/google.feature",
+            "line": 7,
+            "column": 9
+          },
+          "progress": {
+            "step": 1,
+            "steps": 1
+          }
+        }
+      ]
+    ],
+    "duration": 8
+  },
+  {
+    "description": "C72065676:YAHOO",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I can browse \"YAHOO\" website",
+        "category": "I can go to yahoo website: C72065676:YAHOO",
+        "durationMillis": 18,
+        "sourceLocation": {
+          "filePath": "e2e/features/yahoo.feature",
+          "line": 7,
+          "column": 9
+        },
+        "progress": {
+          "step": 1,
+          "steps": 1
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I can browse \"YAHOO\" website",
+          "category": "I can go to yahoo website: C72065676:YAHOO",
+          "durationMillis": 18,
+          "sourceLocation": {
+            "filePath": "e2e/features/yahoo.feature",
+            "line": 7,
+            "column": 9
+          },
+          "progress": {
+            "step": 1,
+            "steps": 1
+          }
+        }
+      ]
+    ],
+    "duration": 26
+  }
+]

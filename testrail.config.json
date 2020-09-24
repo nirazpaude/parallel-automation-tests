@@ -1,0 +1,5 @@
+{
+  "SaveResultsToTestRail": true,
+  "TestRunPropertiesFile": "testrail_testrun_properties.json",
+  "QEHelperApiBaseUrl": "http://qehelper.monotype.com/api/"
+}

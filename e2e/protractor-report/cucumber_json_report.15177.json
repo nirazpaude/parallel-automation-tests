@@ -1,0 +1,68 @@
+[
+  {
+    "description": "    As a user\n    I want to be sure that I can go to google website",
+    "keyword": "Feature",
+    "name": "I can go to yahoo website",
+    "line": 2,
+    "id": "i-can-go-to-yahoo-website",
+    "tags": [
+      {
+        "name": "@yahoo",
+        "line": 1
+      }
+    ],
+    "uri": "e2e/features/yahoo.feature",
+    "elements": [
+      {
+        "id": "i-can-go-to-yahoo-website;c72065676:yahoo",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "C72065676:YAHOO",
+        "tags": [
+          {
+            "name": "@yahoo",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I can browse \"YAHOO\" website",
+            "match": {
+              "location": "e2e/step_definitions/steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

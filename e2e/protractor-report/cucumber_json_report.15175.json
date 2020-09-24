@@ -1,0 +1,68 @@
+[
+  {
+    "description": "    As a user\n    I want to be sure that I can go to duckduckgo website",
+    "keyword": "Feature",
+    "name": "I can go to duckduckgo website",
+    "line": 2,
+    "id": "i-can-go-to-duckduckgo-website",
+    "tags": [
+      {
+        "name": "@duckduckgo",
+        "line": 1
+      }
+    ],
+    "uri": "e2e/features/duckduckgo.feature",
+    "elements": [
+      {
+        "id": "i-can-go-to-duckduckgo-website;c72065622:duckduckgo",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "C72065622:Duckduckgo",
+        "tags": [
+          {
+            "name": "@duckduckgo",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I can browse \"DUCKDUCKGO\" website",
+            "match": {
+              "location": "e2e/step_definitions/steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

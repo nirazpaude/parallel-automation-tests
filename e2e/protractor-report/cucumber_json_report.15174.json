@@ -1,0 +1,68 @@
+[
+  {
+    "description": "    As a user\n    I want to be sure that I can go to bing website",
+    "keyword": "Feature",
+    "name": "I can go to bing website",
+    "line": 2,
+    "id": "i-can-go-to-bing-website",
+    "tags": [
+      {
+        "name": "@bing",
+        "line": 1
+      }
+    ],
+    "uri": "e2e/features/bing.feature",
+    "elements": [
+      {
+        "id": "i-can-go-to-bing-website;c72065623:bing",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "C72065623:BING",
+        "tags": [
+          {
+            "name": "@bing",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I can browse \"BING\" website",
+            "match": {
+              "location": "e2e/step_definitions/steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
